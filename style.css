@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(84, 5, 112) !important;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+img {
+    width: 200px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.div-form {
+    padding: 40px;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+button {
+    width: 100%;
+    font-weight: bold !important;
+    background-color: blueviolet !important;
+    border-color: blueviolet !important;
+}
+
+.movie-info h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.movie-info hr {
+    border-color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+#movie-info {
+    max-height: 300px;
+    overflow-y: auto; 
+}
+
+
